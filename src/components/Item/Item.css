@@ -1,0 +1,58 @@
+.ItemImg{
+    width: 200px;
+}
+
+.Galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Articulo{
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    box-shadow: 3px 3px 49px -1px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 3px 3px 49px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 3px 3px 49px -1px rgba(0,0,0,0.59);
+    border: 5px solid #5e5e5e;
+    margin: 20px;
+}
+.Info{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ItemFooter{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ItemHeader{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Option{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.Option:hover {
+    background-color: #ffffff;
+    border-color: #000000; 
+    color: #000000; 
+}
+

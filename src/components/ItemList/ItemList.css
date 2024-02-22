@@ -1,0 +1,10 @@
+.ListGroup{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ListGroup > * {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+}
