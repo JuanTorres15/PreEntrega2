@@ -1,0 +1,8 @@
+.imagen_carrito{
+    width: 25px;
+}
+
+.cartQuantity {
+    text-decoration: none;
+    display: inline-block;
+}
