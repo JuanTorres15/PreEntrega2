@@ -1,4 +1,4 @@
-const Productos = [
+/*const Productos = [
     {
       "id": "1",
       "title": "Assassin's Creed Valhalla",
@@ -118,4 +118,4 @@ export const getProductosByCategory = (categoryId)=>{
       resolve(Productos.filter(prod=> prod.category === categoryId))
     },500)
 }
-
+*/

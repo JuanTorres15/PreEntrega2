@@ -30,7 +30,11 @@ function ItemDetailContainer () {
             .finally(() => {
                 setLoading(false)
             })
-    }, [itemId])
+    }, [itemId]);
+
+    if (loading){
+        return <h1 className="Counter">Cargando los productos al carrito..</h1>
+    }
 
     return (
         <div className="ItemDetailContainer">

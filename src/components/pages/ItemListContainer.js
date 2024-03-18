@@ -36,22 +36,9 @@ function ItemListContainer({ greeting }) {
                 })
     }, [categoryId])
 
-
-    /*const [Productos, setProductos] = useState([]) 
-
-    const { categoryId } = useParams()
-
-    useEffect(()=>{
-        const asyncFunc = categoryId ? getProductosByCategory: getProductos
-
-        asyncFunc(categoryId)
-            .then(response => {
-                setProductos(response)
-            })
-            .catch(error => {
-                console.error(error)
-            })
-    }, [categoryId])*/
+    if (loading){
+        return <h1 className="Counter">Cargando los productos..</h1>
+    }
 
     return(
         <div>
